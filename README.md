@@ -1,5 +1,5 @@
 # errorless.lowconfig-game
-in the previous version,i eliminate all the Red WARNING of cource with confident.
+in the previous version,i eliminate all the Red WARNING of cource with confidence.
 in this version,i tried too many times to eliminate the YellowBug.
 remain lightyellow warning besides the S12345.ts file.
 and in this version,i delete almost unneccessary parts 
