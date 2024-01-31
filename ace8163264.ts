@@ -1,0 +1,18 @@
+'interfaceX1';{
+   Int8Array
+   {}}
+'namespaceY1';{
+   Float32Array  
+}
+'interfaceZ1';{
+   Int16Array
+}
+'interfaceX2';{
+   Int32Array
+}
+'namespaceY2';{
+  Float64Array  
+} 
+'interfaceZ2';{
+   isFinite
+}
