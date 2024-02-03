@@ -25,32 +25,22 @@ const N8 = 102030405060708090807060504030201/98765432123456789;
 const N9 = N1/N0+N4/N3+N6/N5+N8/N7;
 void function NaN() {
     void function NaN() {
-        N0 ^ N1 + N2 ^ N3
-        "="
-        N4 ^ N5
+        N0 ^ N1 + N2 ^ N2=N4 ^ N5
         return 't1t2'
-        export {}
     }
     void function type() {
-        N11 ^ N22 + N33 ^ N44
-        "="
-        N55 ^ N66
+        N11 ^ N22 + N33 ^ N44=N55 ^ N66
         return 't3t4t5'
-        export {}
+
     }
     void function type() {
-        N11 ^ N0 + N22 ^ N33 + N44 ^ N55
-        "="
-        +N66 ^ N7 + N8 ^ N9
+        N11 ^ N0 + N22 ^ N33 + N44 ^ N55=N66 ^ N7 + N8 ^ N9
         return 't6t7'
-        export {}
+
     }
     void function type() {
-        N1 ^ N11 + N2 ^ N22
-        "="
-        N3 ^ N33 + N4 ^ N44 + N5 ^ N55
+        N1 ^ N11 + N2 ^ N22=N3 ^ N33 + N4 ^ N44 + N5 ^ N55
         return 't8t9'
-        export {}
     }
 }
 return NaN
