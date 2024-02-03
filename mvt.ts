@@ -12,11 +12,11 @@ let arraylist = arr*array;
 setInterval (function(){
  setInterval.toString()
     void function (momentum){
-        'm1*v1'+'m2*v2';'m3*v3'+'m4*v4'
+        'm1*v1'+'m2*v2'<='m3*v3'+'m4*v4'
       return momentum;
      }
     void function (energy){
-        (1%2);'m1*v1*v1'+(1%2);'m2*v2*v2';(1%2);'m3*v3*v3'+(1%2);'m4*v4*v4'
+        (1%2);'m1*v1*v1'+(1%2);'m2*v2*v2'<=(1%2);'m3*v3*v3'+(1%2);'m4*v4*v4'
       return energy;
  }
     void function(equation){
@@ -30,5 +30,5 @@ setTimeout (function(){
         for(let i = 0;i< arr.length;i++)
             for(let j = 0; j < array.length;j++)
                 for(let k = 0; k < arraylist; k++)
-                {}}
+       }
 })
