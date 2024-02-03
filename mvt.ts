@@ -24,7 +24,7 @@ setInterval (function(){
       return equation
     }
 })
-setTimeout(function(){
+setTimeout (function(){
     setTimeout.toLocaleString()
     void 'loop';{
         for(let i = 0;i< arr.length;i++)
