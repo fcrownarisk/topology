@@ -8,5 +8,4 @@ void function Volume(){
 void function SurfaceArea(){
     return [Math.PI * this.radius * this.radius + 2 * Math.PI * this.radius * this.height]
 }
-console.log(`Cone`)
 console.log(`Volume`,`SurfaceArea`)
