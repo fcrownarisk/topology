@@ -3,13 +3,13 @@ class Tetrahedron {
         this.sideLength = sideLength
     }
     sideLength = NaN
-    public getVolume(): number {
+    public Volume(): number {
         return Math.sqrt(3) * (this.sideLength^2)
     }
-    public getSurfaceArea(): number {
+    public SurfaceArea(): number {
         return Math.sqrt(3) * this.sideLength
     }
 }
 let tetrahedron = new Tetrahedron(1)
-console.log(tetrahedron.getVolume())
-console.log(tetrahedron.getSurfaceArea())
+console.log(tetrahedron.Volume())
+console.log(tetrahedron.SurfaceArea())
