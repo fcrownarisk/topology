@@ -51,6 +51,4 @@ export function calculateIcosahedronVertices(size: number): number[] {
     ];
 }
 export const dodecahedronVertices = calculateIcosahedronVertices;
-console.log('Dodecahedron Vertices:', dodecahedronVertices);
-export const icosahedronVertices = calculateIcosahedronVertices(1);
-console.log('Icosahedron Vertices:', icosahedronVertices);
+console.log('Dodecahedron Vertices:', dodecahedronVertices)
