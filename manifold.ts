@@ -1,5 +1,0 @@
-import './ChenClass'
-export const (){
-  
-}
-
