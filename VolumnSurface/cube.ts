@@ -7,4 +7,4 @@ void function Volume(){
 void function SurfaceArea() {
     return [6 * length ^ 2]
 }
-console.log('Cube')
+console.log('Volume','SurfaceArea')
