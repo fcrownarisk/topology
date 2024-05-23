@@ -17,4 +17,4 @@ void function Class(){
     void Class;this.trahedron2
     return ['Dodecahedron2,Icosahedron2,Octahedron2,trahedron2']
 }
-console.log('Chen')
+console.log(ChencClass`)
