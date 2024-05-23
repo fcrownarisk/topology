@@ -5,7 +5,7 @@ export function calculateIcosahedron(size: number): { vertices: number[]; length
     const cosPhi = -1 / 2;
     const sinPhi = Math.sqrt(6) / 2;
     const vertices = [
-        // First triangle
+    // First triangle
         edge * cosPhi, edge * sinPhi, 0,
         edge * cosPhi, edge * sinPhi, 0,
         edge * cosPhi, edge * sinPhi, 0,
@@ -54,4 +54,5 @@ export function calculateIcosahedron(size: number): { vertices: number[]; length
     );
     return { vertices, length: edge };
 }
-console.log(`calculateIcosahedron`)
+export const icosahedronVertices = calculateIcosahedron(1);
+console.log('Icosahedron Vertices:', icosahedronVertices);
