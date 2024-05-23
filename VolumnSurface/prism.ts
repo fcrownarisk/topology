@@ -1,5 +1,4 @@
-
-class Prism {
+class Prism{
     length: number;
     width: number;
     height: number;
@@ -12,4 +11,4 @@ class Prism {
     }
 }
 export const ThePrism = new Prism(3, 4, 5, 5);
-console.log(length,ThePrism.width,ThePrism.height,ThePrism.faces)
+console.log(length,Prism.width,Prism.height,Prism.faces)
