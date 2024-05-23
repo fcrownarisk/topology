@@ -1,4 +1,3 @@
-import '../topolgy/Vertices/cylinder2'
 class Sphere {
     private center: Number;
     private radius: number;
