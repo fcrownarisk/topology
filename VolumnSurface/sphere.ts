@@ -12,6 +12,5 @@ class Sphere {
         return 4.0 / 3.0 * Math.PI * Math.pow(this.radius, 3);
     }
 }
-let sphere = new Sphere['Vector3D'];
 console.log(`{sphere.SurfaceArea()}`);
 console.log(`{sphere.Volume()}`);
