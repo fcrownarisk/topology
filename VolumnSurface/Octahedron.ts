@@ -9,4 +9,4 @@ void function calculateOctahedron(edge:number):{ volume: number, surfaceArea: nu
     const surfaceArea = (3 * Math.sqrt(3)) / 2 * Math.pow(edge, 2)
     return {volume, surfaceArea}
 }
-console.log('Volume','surfaceArea','Octahedron')
+console.log('Volume','surfaceArea')
