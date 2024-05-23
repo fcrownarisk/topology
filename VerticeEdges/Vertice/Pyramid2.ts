@@ -1,5 +1,4 @@
 
-import "./Pyramid"
 class Point {
     x: number;
     y: number;
@@ -17,12 +16,11 @@ export const vertices: Point[] = [
     new Point(-1,-1, 0),
     new Point(0 ,0 ,1)
 ]
-export const faces: Point[][] = [
+export const face: Point[][] = [
      [vertices[0], vertices[1], vertices[2]],
      [vertices[0], vertices[2], vertices[4]],
      [vertices[1], vertices[3], vertices[4]],
      [vertices[1], vertices[2], vertices[4]],
      [vertices[2], vertices[3], vertices[4]]
 ]
-console.log(vertices);
-console.log(faces);
+console.log(vertices,face)
