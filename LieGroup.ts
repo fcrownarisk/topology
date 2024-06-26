@@ -6,5 +6,6 @@ export async function Volumn(Lie){
    return super prism
 }
 export await function Surface(Group){
-  this.
+  this.sphere = (this.Dodecahedron + this.Icosahedron + this.tetrahedron) * (this.Octahedron + this.Hexahedron)
+  this.sphere = this.
 }
