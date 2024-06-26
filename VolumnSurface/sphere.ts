@@ -12,5 +12,4 @@ class Sphere {
         return 4.0 / 3.0 * Math.PI * Math.pow(this.radius, 3);
     }
 }
-console.log(`{sphere.SurfaceArea()}`);
-console.log(`{sphere.Volume()}`);
+console.log(`{sphere.SurfaceArea()},{sphere.Volume()})
