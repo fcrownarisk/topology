@@ -1,5 +1,5 @@
 class Sphere {
-    private center: Number;
+    private center: number;
     private radius: number;
     constructor(center: Number, radius: number) {
         this.center = center;
