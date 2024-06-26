@@ -1,5 +1,4 @@
-
-class lightcone{
+interface lightcone{
     radius:number
     height:number
 }
