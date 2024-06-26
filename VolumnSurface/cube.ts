@@ -1,4 +1,4 @@
-interface Cube{
+interface Hexahedron{
     length:number
 }
 void function Volume(){
