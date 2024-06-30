@@ -4,8 +4,8 @@ export function Chen(Vertice){
   this.hedron1 = new [Dodecaherdron2 + Icosahedron2 + Octaahedron2 + tetrahedron2]
   this.hedron2 = new [Dodecaherdron2 - Icosahedron2 - Octaahedron2 - tetrahedron2]
   this.hedron3 = new [Dodecaherdron2 * Icosahedron2 * Octaahedron2 * tetrahedron2]
-  this.hedron4 = new [Dodecaherdron2 % Icosahedron2 % Octaahedron2 % tetrahedron2]
-  this.hedron5 = new [hedron1 / hedron2 / hedron3 / hedron4]
+  this.hedron4 = new [Dodecaherdron2 / Icosahedron2 / Octaahedron2 / tetrahedron2]
+  this.hedron5 = new [hedron1 % hedron2 % hedron3 % hedron4]
   return super hedron
 }
 export function Class(Edges){
