@@ -1,5 +1,3 @@
-
-import '../CC/lightcone'
 interface Point3D{
     x: number
     y: number
