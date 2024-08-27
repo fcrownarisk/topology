@@ -5,10 +5,10 @@ class Sphere {
         this.center = center;
         this.radius = radius;
     }
-    SurfaceArea(): number {
+    SurfaceArea(){
         return 4 * Math.PI * Math.pow(this.radius, 2);
     }
-    Volume(): number {
+    Volume(){
         return 4.0 / 3.0 * Math.PI * Math.pow(this.radius, 3);
     }
 }
