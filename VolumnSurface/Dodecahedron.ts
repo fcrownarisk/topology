@@ -1,5 +1,3 @@
-
-
 void function calculateDodecahedronVertices(size: number): number[] {
     const r = Math.sqrt(3) / 2 * size;
     return [
@@ -23,31 +21,31 @@ void function calculateDodecahedronVertices(size: number): number[] {
 }
 export function calculateIcosahedronVertices(size: number): number[] {
     // Formula for the edge length
-    const edgeLength = size;
+    const edge = size;
     // Create an array of vertices for an icosahedron
     return [
         // Vertex 1
-        0, 0, -edgeLength,
+        0, 0, -edge,
         // Vertex 2
-        0, 0, edgeLength,
+        0, 0, edge,
         // Vertices 3, 4, 5, 6, 7, 8 are the midpoints of the edges around vertex 1
-        edgeLength * Math.cos(Math.PI * 15 / 180), edgeLength * Math.sin(Math.PI * 15 / 180), -edgeLength / 2,
-        -edgeLength * Math.cos(Math.PI * 15 / 180), edgeLength * Math.sin(Math.PI * 15 / 180), -edgeLength / 2,
-        edgeLength * Math.cos(Math.PI * 75 / 180), -edgeLength * Math.sin(Math.PI * 75 / 180), -edgeLength / 2,
-        -edgeLength * Math.cos(Math.PI * 75 / 180), -edgeLength * Math.sin(Math.PI * 75 / 180), -edgeLength / 2,
-        edgeLength * Math.cos(Math.PI * 165 / 180), edgeLength * Math.sin(Math.PI * 165 / 180), edgeLength / 2,
-        -edgeLength * Math.cos(Math.PI * 165 / 180), edgeLength * Math.sin(Math.PI * 165 / 180), edgeLength / 2,
-        edgeLength * Math.cos(Math.PI * 195 / 180), -edgeLength * Math.sin(Math.PI * 195 / 180), edgeLength / 2,
-        -edgeLength * Math.cos(Math.PI * 195 / 180), -edgeLength * Math.sin(Math.PI * 195 / 180), edgeLength / 2,
+        edge * Math.cos(Math.PI * 15 / 180), edge * Math.sin(Math.PI * 15 / 180), -edge / 2,
+        -edge * Math.cos(Math.PI * 15 / 180), edge * Math.sin(Math.PI * 15 / 180), -edge / 2,
+        edge * Math.cos(Math.PI * 75 / 180), -edge * Math.sin(Math.PI * 75 / 180), -edge / 2,
+        -edge * Math.cos(Math.PI * 75 / 180), -edge * Math.sin(Math.PI * 75 / 180), -edge / 2,
+        edge * Math.cos(Math.PI * 165 / 180), edge * Math.sin(Math.PI * 165 / 180), edge / 2,
+        -edge * Math.cos(Math.PI * 165 / 180), edge * Math.sin(Math.PI * 165 / 180), edge / 2,
+        edge * Math.cos(Math.PI * 195 / 180), -edge * Math.sin(Math.PI * 195 / 180), edge / 2,
+        -edge * Math.cos(Math.PI * 195 / 180), -edge * Math.sin(Math.PI * 195 / 180), edge / 2,
         // Vertices 9, 10, 11, 12, 13, 14, 15 are the midpoints of the edges around vertex 2
-        edgeLength * Math.cos(Math.PI * 90 / 180), -edgeLength * Math.sin(Math.PI * 90 / 180), -edgeLength / 2,
-        -edgeLength * Math.cos(Math.PI * 90 / 180), -edgeLength * Math.sin(Math.PI * 90 / 180), -edgeLength / 2,
-        edgeLength * Math.cos(Math.PI * 210 / 180), edgeLength * Math.sin(Math.PI * 210 / 180), edgeLength / 2,
-        -edgeLength * Math.cos(Math.PI * 210 / 180), edgeLength * Math.sin(Math.PI * 210 / 180), edgeLength / 2,
-        edgeLength * Math.cos(Math.PI * 240 / 180), -edgeLength * Math.sin(Math.PI * 240 / 180), edgeLength / 2,
-        -edgeLength * Math.cos(Math.PI * 240 / 180), -edgeLength * Math.sin(Math.PI * 240 / 180), edgeLength / 2,
-        edgeLength * Math.cos(Math.PI * 300 / 180), edgeLength * Math.sin(Math.PI * 300 / 180), -edgeLength / 2,
-        -edgeLength * Math.cos(Math.PI * 300 / 180), edgeLength * Math.sin(Math.PI * 300 / 180), -edgeLength / 2
+        edge * Math.cos(Math.PI * 90 / 180), -edge * Math.sin(Math.PI * 90 / 180), -edge / 2,
+        -edge * Math.cos(Math.PI * 90 / 180), -edge * Math.sin(Math.PI * 90 / 180), -edge / 2,
+        edge * Math.cos(Math.PI * 210 / 180), edge * Math.sin(Math.PI * 210 / 180), edge / 2,
+        -edge * Math.cos(Math.PI * 210 / 180), edge * Math.sin(Math.PI * 210 / 180), edge / 2,
+        edge * Math.cos(Math.PI * 240 / 180), -edge * Math.sin(Math.PI * 240 / 180), edge / 2,
+        -edge * Math.cos(Math.PI * 240 / 180), -edge * Math.sin(Math.PI * 240 / 180), edge / 2,
+        edge * Math.cos(Math.PI * 300 / 180), edge * Math.sin(Math.PI * 300 / 180), -edge / 2,
+        -edge * Math.cos(Math.PI * 300 / 180), edge * Math.sin(Math.PI * 300 / 180), -edge / 2
     ];
 }
 export const dodecahedronVertices = calculateIcosahedronVertices;
