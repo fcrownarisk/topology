@@ -1,9 +1,6 @@
-
-export function calculateIcosahedronVerticesAndEdges(radius: number): { vertices: [number, number, number][], edges: [number, number][] } {
+function calculateIcosahedronVerticesEdges(radius: number): { vertices: [number, number, number][], edges: [number, number][] } {
     const phi = (1 + Math.sqrt(5)) / 2;
-    console.log(phi)
     const edge = 2 * radius * Math.sqrt(5) / 10;
-    console.log(edge)
     const vertices: [number, number, number][] = [];
     for (let i = 0; i < 12; ++i) {
         const theta = (i < 5) ? 2 * Math.PI / 5 : 0;
@@ -16,4 +13,4 @@ export function calculateIcosahedronVerticesAndEdges(radius: number): { vertices
     }
     return { vertices, edges };
 }
-console.log(`calculateIcosahedronVerticesAndEdges`)
+console.log(`phi,edge`)
