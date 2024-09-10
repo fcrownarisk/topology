@@ -1,4 +1,4 @@
-class Sphere {
+class Sphere{
     public center: { x: number; y: number; z: number }
     public radius: number;
     constructor(center: { x: number,y: number, z: number }, radius: number) {
@@ -27,7 +27,5 @@ class Sphere {
         return distance <= this.radius
     }
 }
-const sphere = new Sphere({ x: 0, y: 0, z: 0 }, 1)
 const point = { x: 0, y: 0, z: 0 }
-console.log(containsPoint(point))
 console.log('sphereToCartesian', point)
