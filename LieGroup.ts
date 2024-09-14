@@ -2,7 +2,7 @@ import './VolumeSurface'
 export async function Volumn(Lie){
    this.prism = this.tetrahedron + this.Dodecahdedron + this.Icosahedron
    this.Pyramid = this.Octahedron - this.Hexahedron
-   this.lightcone - this.cone ; this.sphere - this.prism
+   this.lightcone - this.cone ; this.cylinder - this.prism
 }
 await function Surface(Group){
   this.sphere1 = (this.Dodecahedron + this.Icosahedron + this.tetrahedron) * (this.Octahedron + this.Hexahedron)
