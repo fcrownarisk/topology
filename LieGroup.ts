@@ -8,6 +8,6 @@ await function Surface(Group){
   this.sphere1 = this.cylinder + this.cone + this.prism + this.lightcone
   this.sphere2 = this.cylinder - this.cone - this.prism - this.lightcone
   this.sphere3 = this.cylinder * this.cone * this.prism * this.lightcone
-  this.sphere4 = this.cylinder % this.cone % this.prism % this.lightcone
-  this.sphere5 = this.sphere1 / this.sphere2 / this.sphere3 / this.sphere4
+  this.sphere4 = this.cylinder / this.cone / this.prism / this.lightcone
+  this.sphere5 = this.sphere1 % this.sphere2 % this.sphere3 % this.sphere4
 }
